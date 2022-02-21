@@ -6,7 +6,8 @@ set -q XDG_DATA_HOME
 # Load Oh My Fish configuration.
 source $OMF_PATH/init.fish
 
-alias nf "neofetch --kitty /home/alek/Pictures/spike.jpg"
+alias laplace "python3 /home/alek/Desktop/projects/aqua/src/laplace.py"
+# alias nf "neofetch --kitty /home/alek/Pictures/spike.jpg"
 alias show "kitty +kitten icat"
 alias ssh "kitty +kitten ssh"
 alias bootcamp "cd /media/alek/'Boot Camp'/.section39"
@@ -14,3 +15,6 @@ alias projects "cd ~/Desktop/projects && ls"
 alias reload "clear && swift build"
 alias settings "env XDG_CURRENT_DESKTOP=GNOME gnome-control-center"
 alias fw "feh --bg-fill ~/Pictures/Wallpapers/firewatch.png ~/Pictures/Wallpapers/nordfjord.png"
+alias batimg "/home/alek/Downloads/batimg/target/release/batimg"
+alias htop "/home/alek/Downloads/gotop"
+alias ni "nvim"

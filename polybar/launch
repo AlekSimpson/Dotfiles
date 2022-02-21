@@ -1,0 +1,5 @@
+#!/bin/bash
+DIR="$HOME/.config/polybar"
+
+pkill polybar
+polybar -r main &
